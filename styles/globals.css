@@ -1,1 +1,57 @@
-body { font-family: 'Vazirmatn', sans-serif; }
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* فونت عمومی برای کل سایت */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f9fafb;
+  color: #111827;
+  direction: rtl; /* برای فارسی */
+  margin: 0;
+  padding: 0;
+}
+
+/* لینک‌ها */
+a {
+  color: #2563eb;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+/* دکمه‌ها */
+button {
+  font-weight: 600;
+  border-radius: 0.5rem;
+  padding: 0.5rem 1rem;
+  background-color: #2563eb;
+  color: white;
+  transition: background-color 0.2s;
+}
+button:hover {
+  background-color: #1e40af;
+}
+
+/* بنر */
+.banner {
+  width: 100%;
+  max-height: 450px;
+  object-fit: cover;
+  border-radius: 0.75rem;
+  margin-bottom: 1.5rem;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
+
+/* تیترهای اصلی */
+h1, h2, h3 {
+  font-weight: bold;
+  color: #111827;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1rem;
+}
