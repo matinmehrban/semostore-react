@@ -1,12 +1,4 @@
 // app/page.tsx
-export default function Home() {
-  return (
-    <main>
-      <h1>به SemoStore خوش آمدید</h1>
-      <p>بهترین محصولات دیجیتال برای شما</p>
-    </main>
-  );
-}
 import Image from 'next/image';
 
 export default function Home() {
