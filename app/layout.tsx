@@ -1,11 +1,10 @@
 // app/layout.tsx
-import '../styles/globals.css';
-import type { Metadata } from 'next';
+import './globals.css';
 import { ReactNode } from 'react';
 
-export const metadata: Metadata = {
-  title: 'SemoStore - فروشگاه گجت و دیجیتال',
-  description: 'جدیدترین محصولات دیجیتال را در SemoStore ببینید.',
+export const metadata = {
+  title: 'SemoStore',
+  description: 'بهترین فروشگاه دیجیتال',
 };
 
 export default function RootLayout({ children }: { children: ReactNode }) {
