@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <main className="min-h-screen bg-gray-900 text-white p-6">
       <header className="flex items-center justify-between mb-12">
-        <div className="flex items-center space-x-4">
+        <div className="flex items-center gap-4">
           <Image src="/logo.png" alt="SemoStore Logo" width={60} height={60} />
           <h1 className="text-3xl font-bold">SemoStore</h1>
         </div>
